@@ -1,0 +1,27 @@
+NAME
+	history - prints the list of commands sent through the shell
+USAGE
+	history [number]
+EXAMPLES
+	Suppose the user already typed the following into the shell in order from 1. being least recent
+	to 4. being most recent:
+	1.cd ..
+	2.mkdir textFolder
+	3.echo "Hello World"
+	4.fsjhdfks
+
+	history
+		prints the following to standard output:
+			1.cd ..
+			2.mkdir textFolder
+			3.echo "Hello World"
+			4.fsjhdfks
+			5.history
+		prints out entire list of commands sent through the shell including history
+		in order from least recent(1) to most recent(5).
+	history 3
+		prints the following to standard output:
+			3.echo "Hello World"
+			4.fsjhdfks
+			5.history 3
+		prints the most recent n number of commands sent through the shell

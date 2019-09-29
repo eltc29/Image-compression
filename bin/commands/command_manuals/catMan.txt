@@ -1,0 +1,13 @@
+NAME
+	cat - concatenate files and print on the standard output, note that files are separated
+	by three line breaks.
+USAGE
+	cat FILE1 [FILE2]
+EXAMPLES
+	Suppose there are two text files in the current working directory, f1.txt which contains the 
+	text "hello" and f2.txt which contains the text "world".
+	
+	cat f1
+		outputs "hello" followed by three line breaks to standard output
+	cat f1 f2
+		outputs "hello" followed by three line breaks followed by "world" and three more line breaks

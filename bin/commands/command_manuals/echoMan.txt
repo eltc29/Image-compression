@@ -1,0 +1,20 @@
+NAME
+	echo - display a line of text to standard output or save/append it to a text file
+USAGE
+	NOTE: double quotes are required between STRING
+	echo STRING
+		prints STRING to standard output
+	echo STRING > OUTFILE
+		saves STRING into the file OUTFILE 
+			if OUTFILE already exists overwrite it with STRING
+			if OUTFILE does not exist create file OUTFILE with STRING
+	echo STRING >> OUTFILE
+		appends STRING to the end of OUTFILE
+			if OUTFILE does not exist create file OUTFILE with STRING
+EXAMPLES
+	echo "hello world"
+		prints hello world to standard output
+	echo "hello world" > output.txt
+	echo "goodbye" >> output.txt 
+		creates a new file output.txt with the string hello world
+		next appends goodbye to the next line of output.txt

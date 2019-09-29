@@ -1,0 +1,12 @@
+NAME
+	mv -  Move item OLDPATH to NEWPATH. Both OLD-PATH and NEWPATH may be relative to the current 
+	directory or may be full paths. If NEWPATH is a directory, move the item into the directory.
+USAGE
+	mv OLDPATH NEWPATH
+NOTES (EXAMPLES)
+	mv a b , where a and b are files, b will be overwritten with the contents of a. a will be
+	removed.
+	mv /a/b/c /a , where both paths are directories, directory c will be removed from /a/b
+	and added to /a
+	mv /a/b/c out , where /a/b/c is a directory and out is a file, this will throw an error because
+	moving a directory to a file does not make any sense

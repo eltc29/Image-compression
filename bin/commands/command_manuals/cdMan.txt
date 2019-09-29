@@ -1,0 +1,14 @@
+NAME
+	cd - change the shell working directory.
+USAGE
+	cd DIR
+EXAMPLES
+	Suppose you are currently in the root directory and there is another directory in the root
+	called "dir1", and another directory "dir2" that is in "dir1" 
+	
+	(relative path example)
+	cd dir1
+		change your directory from / to /dir1
+	(absolute path example)
+	cd dir1/dir2
+		change your directory from / to /dir1/dir2

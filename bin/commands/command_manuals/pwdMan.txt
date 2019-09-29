@@ -1,0 +1,9 @@
+NAME
+	pwd - Print the current working directory (including the whole path).
+USAGE
+	pwd
+EXAMPLES
+	Suppose the current working directory has the path root/dir1/foo/bar/thisdir
+	
+	pwd would print the following into stdio:
+    root/dir1/foo/bar/thisdir

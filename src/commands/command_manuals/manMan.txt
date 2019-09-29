@@ -1,0 +1,6 @@
+NAME
+	man - print the manual of CMD
+USAGE
+	man CMD
+EXAMPLES
+	man cd would print out the manual for cd.

@@ -1,0 +1,14 @@
+NAME
+	mkdir - Create directories, each of which may be relative to the current directory or may be a full path. 
+USAGE
+	mkdir DIR...
+EXAMPLES
+	Suppose you are currently in the root directory and there is another directory in the root
+	called "dir1", and another directory "dir2" that is in "dir1" 
+	
+	(relative path example)
+	cd dir3
+		create new directory in root called dir3
+	(absolute path example)
+	cd dir1/dir2/dir4
+		create new directory in dir2 called dir4

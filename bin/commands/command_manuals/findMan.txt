@@ -1,0 +1,5 @@
+find path ... -type [f|d] -name expression
+
+path ... is is the path of the directory to search in
+use -type f to specify file, and -type d to specify directory
+-name expression specifies the exact string to search for in file or directory name

@@ -1,0 +1,21 @@
+NAME
+	cp - recursively copy files and directories form oldpath to newpath
+USAGE
+	cd oldpath newpath
+EXAMPLES
+	Suppose you are currently in the root directory and there are 2 directories in the root
+	called "dir1" and "dir3", and directory "dir2" and file "txt.txt" that is in "dir1" 
+	
+	cp dir1 dir3
+	will result in the following filesystem (visualized in tree format)
+	/
+	  dir1
+	  	dir2
+	  	txt.txt
+	  dir3
+	  	dir2
+	  	txt.txt
+	  	
+	note that cp file dir, and cp dir dir are defined like above,
+	and that cp file file will overwrite target file with oldfile contents
+	copying from directory into a file will give an error
