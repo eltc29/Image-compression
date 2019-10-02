@@ -1,6 +1,0 @@
-NAME
-	load - get saved instance of shell and set it to be the current one
-USAGE
-	load
-EXAMPLES
-	NA

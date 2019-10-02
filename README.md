@@ -1,6 +1,10 @@
 Download the repo to your computer. To run the program:
-- Use your preferred IDE(for instance Eclipse) to create a project from the directory where you downloaded the files.
-- Under 'src', run 'jShell.java' as java application.
-- In the console, you'll see '#' which means that it is waiting for input from user. Just treat it like a Linux shell.
-- List of simple commands: echo, cat, ls, cd, cp, mv, rmdir, rm, mkdir.
-	- For e.g. try "echo 'helloworld' > a.txt"
+- Open the Linux terminal.
+- Run "make makefile.txt"
+- Run "./roundtrip INPUTFILE OUTPUTFILE THRESHOLD MAXDEPTH"
+  - INPUTFILE is test.pgm
+  - OUTPUTFILE, you give it a name with .pgm extension (for e.g. out.pgm)
+  - THRESHOLD is a value such that the image cannot be broken down any further once the threshold is reached.
+  - MAXDEPTH is a the maximum number of times user wants to subdivide the pixel squares.
+- Play between values of THRESHOLD and MAXDEPTH to obtain interesting output.
+- To view output image, go to http://paulcuth.me.uk/netpbm-viewer/ and insert output image there.

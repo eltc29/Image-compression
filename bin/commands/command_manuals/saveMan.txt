@@ -1,6 +1,0 @@
-NAME
-	save - save current JShell into persistent file after jshell terminates
-USAGE
-	save
-EXAMPLES
-	NA
