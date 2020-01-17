@@ -1,4 +1,7 @@
-Download the repo to your computer. To run the program:
+## Image Compression Program
+
+Instructions:
+- Clone repo to your computer.
 - Open the terminal in the folder you downloaded the files.
 - Run `make makefile.txt`.
 - Run `./roundtrip INPUTFILE OUTPUTFILE THRESHOLD MAXDEPTH`.
